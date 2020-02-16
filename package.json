@@ -1,0 +1,28 @@
+{
+    "name": "taxistop",
+    "version": "1.0.0",
+    "description": "uber-like app api",
+    "main": "index.js",
+    "scripts": {
+        "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "mongodb",
+        "api",
+        "backend"
+    ],
+    "author": "Freinet Brutus",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.1"
+    },
+    "devDependencies": {
+        "assert": "^2.0.0",
+        "mocha": "^7.0.1",
+        "supertest": "^4.0.2"
+    }
+}
